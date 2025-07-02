@@ -15,15 +15,6 @@ const Experience = () => {
     },
     {
       id: 2,
-      role: "Full Stack Developer",
-      company: "Innoventure SE Group",
-      duration: "2023 - 2025",
-      description: "Developing and maintaining web applications using modern technologies. Collaborating with the team to implement new features and fix bugs. Participating in code reviews and agile development processes.",
-      type: "work",
-      icon: <FaBriefcase />
-    },
-    {
-      id: 3,
       role: "BSIT Student",
       company: "Western Mindanao State University",
       duration: "August 2021 - May 2025",
