@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGithub, FaPhp, FaJava, FaBootstrap } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaGithub, FaPhp, FaBootstrap } from 'react-icons/fa';
 import { SiTypescript, SiTailwindcss, SiSupabase, SiMysql, SiSqlite } from 'react-icons/si';
 
 const About = () => {
@@ -20,7 +20,6 @@ const About = () => {
       category: "Backend & Database",
       items: [
         { name: "PHP", icon: <FaPhp data-icon="php" /> },
-        { name: "Java", icon: <FaJava data-icon="java" /> },
         { name: "Supabase", icon: <SiSupabase data-icon="supabase" /> },
         { name: "MySQL", icon: <SiMysql data-icon="mysql" /> },
         { name: "SQLite", icon: <SiSqlite data-icon="sqlite" /> }
