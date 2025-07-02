@@ -39,7 +39,7 @@ const Hero = () => {
         <p className="bio">Passionate about building web applications using PHP, JavaScript, React, and more. Still learning and growing every day!</p>
         <div className="cta-group">
           <a href="#projects" className="cta-button primary">View Projects</a>
-          <button className="cta-button secondary">Download CV</button>
+          <a href="/Halon_Ahmidserhan (2).pdf" download="Ahmidserhan_Halon_CV.pdf" className="cta-button secondary">Download CV</a>
         </div>
         <div className="social-links">
           <a href="https://github.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
