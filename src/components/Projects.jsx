@@ -54,7 +54,7 @@ const Projects = () => {
     },
     {
       title: "Orion Tech Website",
-      description: "An ongoing corporate website project for a startup company based in Zamboanga City, Philippines. Features modern design, responsive user interface, and optimized performance for enhanced user experience.",
+      description: "An ongoing website project for a startup company based in Zamboanga City, Philippines. Features modern design, responsive user interface, and optimized performance for enhanced user experience.",
       tech: [
         { name: "Next.js", icon: <SiNextdotjs /> },
         { name: "TypeScript", icon: <SiTypescript /> },
@@ -64,7 +64,7 @@ const Projects = () => {
       image: "/orion.jpg",
       liveLink: "https://oriontech-pi.vercel.app/", // Ongoing project
       githubLink: "#", // Private repository
-      category: "Corporate Website"
+      category: "Startup Website"
     }
   ];
                    
