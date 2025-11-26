@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import labrador from '../assets/images/labrador.jpg';
 import { FaHtml5, FaCss3Alt, FaJs, FaPhp, FaReact, FaNodeJs } from 'react-icons/fa';
-import { SiMongodb, SiSocketdotio, SiMysql, SiDjango, SiNextdotjs, SiTypescript } from 'react-icons/si';
+import { SiMongodb, SiSocketdotio, SiMysql, SiDjango, SiNextdotjs, SiTypescript, SiSupabase } from 'react-icons/si';
 
 const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -65,6 +65,19 @@ const Projects = () => {
       liveLink: "https://oriontech-pi.vercel.app/", // Ongoing project
       githubLink: "#", // Private repository
       category: "Startup Website"
+    },
+    {
+      title: "MedMind - Study OS for Nursing",
+      description: "A comprehensive all-in-one study operating system designed specifically for Ateneo de Zamboanga nursing students. Enables efficient planning of rotations and exams, facilitates peer collaboration, and enhances focus through integrated Pomodoro timers, to-do lists, and note-taking capabilities.",
+      tech: [
+        { name: "Next.js", icon: <SiNextdotjs /> },
+        { name: "TypeScript", icon: <SiTypescript /> },
+        { name: "Supabase", icon: <SiSupabase /> }
+      ],
+      image: "/medmind.png",
+      liveLink: "https://medmind-six.vercel.app/",
+      githubLink: "https://github.com/Ahmidserhan/medmind",
+      category: "Educational Platform"
     }
   ];
                    
