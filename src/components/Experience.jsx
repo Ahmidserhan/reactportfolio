@@ -6,10 +6,19 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
+      role: "IT Technical Specialist",
+      company: "Via Alto General Merchandise",
+      duration: "July 2025 - September 2025",
+      description: "Developed and implemented an inventory management system to streamline operations and improve efficiency. Provided technical support and maintained IT infrastructure for the organization.",
+      type: "work",
+      icon: <FaBriefcase />
+    },
+    {
+      id: 2,
       role: "BSIT Student",
       company: "Western Mindanao State University",
       duration: "August 2021 - May 2025",
-      description: "Studying Bachelor of Science in Information Technology with a focus on web development and software engineering. Participating in various coding competitions and hackathons. Maintaining a strong academic record.",
+      description: "Studied Bachelor of Science in Information Technology with a focus on web development and software engineering.",
       type: "education",
       icon: <FaGraduationCap />
     }
