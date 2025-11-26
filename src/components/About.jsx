@@ -60,7 +60,7 @@ const About = () => {
               <span className="label">Years Experience</span>
             </div>
             <div className="exp-card">
-              <span className="number">4+</span>
+              <span className="number">5+</span>
               <span className="label">Projects Completed</span>
             </div>
           </div>
